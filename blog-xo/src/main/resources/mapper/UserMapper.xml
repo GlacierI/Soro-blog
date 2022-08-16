@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.moxi.mogublog.xo.mapper.UserMapper">
+<mapper namespace="com.glacier.soroblog.xo.mapper.UserMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.moxi.mogublog.commons.entity.User">
+    <resultMap id="BaseResultMap" type="com.glacier.soroblog.commons.entity.User">
         <id column="uid" property="uid"/>
         <result column="userName" property="userName"/>
         <result column="password" property="password"/>
